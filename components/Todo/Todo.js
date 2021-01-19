@@ -19,7 +19,7 @@ const Todo = (props) => {
         <div key={item.id}>
         <span className='name'>{item.name}</span>  
         <span className='age'>{item.age}</span>
-        <button className='action icon'onClick={()=> deletme(item.id)}><span>&times;</span></button>
+        <button className='action icon' onClick={()=> deletme(item.id)}><span>&times;</span></button>
        
         </div>
        
